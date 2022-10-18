@@ -1,0 +1,467 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Ms+Madi&family=Pacifico&family=Prata&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style: none;
+}
+main{
+    width: 100%;
+    height: 100%;
+
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+     background: #fff;
+     box-shadow: 0px 1px rgba(0,0,0,45%);
+}
+.headerBox{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerBox img{
+    width: 800px;
+    height: 100%;
+    
+}
+.socialLogo{
+    width: 300px;
+    
+}
+.socialLogo > img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+.social{
+    width: 500px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,45%) ;
+}
+
+.contactBox a{
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(94, 94, 238);
+    cursor: pointer;
+    border-right: 2px solid grey;
+    padding-right: 5px;
+}
+
+
+/* Styling nav bar */
+.navigationBox{
+    width: 100%;
+    height: 70px;
+    background: rgb(192, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigationBox nav ul{
+    width: 970px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 30px;
+    
+}
+.navigationBox nav ul li a{
+    font-size: 18px;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.navigationBox nav ul li  :hover{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+#Banner{
+    height: 90vh;
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHN0dWRlbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60")no-repeat center ;
+    background-size: cover;
+   
+    
+    
+}
+.main{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(30, 30, 249, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middleContent{
+    
+    width: 560px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+
+}
+.middleContent h1{
+ font-size: 50px;
+ font-weight: 900;
+ line-height: 60px;
+ margin-top: 20px;
+}
+.welcome{
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+.middleContent button{
+    margin-top: 30px;
+    background: transparent;
+    padding: 15px 25px 15px 25px;
+    border-radius: 40px;
+    border-color: #fff;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.5s all ease-in-out;
+    z-index: 999;
+    font-size: 19px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.middleContent button:hover{
+    background-color: rgb(12, 201, 91);
+    border: none;
+}
+
+/* Styling the about_page  */
+#about_Page{
+    margin-top: 20vh;
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: relative;
+}
+.charmanSection{
+    width: 350px;
+    text-align: center;
+  
+}
+
+.charmanSection .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    
+padding-bottom: 20px;
+}
+.charmanSection .container >img{
+    height: 170px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 30px;
+}
+.name_wrapper {
+    color: rgb(75, 75, 236);
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.details{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 17px;
+    color: rgb(43, 42, 42);
+}
+.charmanSection a{
+    color: blue;
+    margin-left: -60%;
+    font-size: 20px;
+}
+.content{
+    width: 700px;
+    height: 100%;
+    text-align: center;
+}
+.rightContent{
+    text-align: left;
+    padding-left: 30px;
+    margin-left: 30px;
+   
+}
+.heading{
+    margin: 20px 0px 20px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+.experience{
+    color: lightseagreen;
+    font-size: 22px;
+    margin: 20px 0px 20px 0;
+
+}
+.details{
+    line-height: 34px;
+    font-size: 19px;
+    margin: 20px 0px 20px 0;   
+    color: gray;
+}
+.callNO{
+    font-size: 29px;
+    margin: 20px 0px 20px 0;
+    color: lightseagreen;   
+}
+.rightContent button{
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 20px 0px 20px 0;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.noticeSection{
+    position: absolute;
+    right: -25%;
+   top: 10%;   
+}
+.noticeSection p > span{
+    color: red;
+    animation: sake 1s linear infinite ;
+}
+@keyframes sake {
+    0%{left: 0;}
+    30%{margin-left: 3px;}
+    60%{margin-right: 5px;}
+    100%{margin-left: 4px;}
+    
+}
+.noticeBox{
+    margin-top: 29px;
+    height: 200px;
+    width: 200px;
+    background-color:#fff;
+    box-shadow: 0px 2px black;
+    overflow: hidden;
+}
+.noticeBox ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     color: red;
+     animation: animate 3s infinite ease-in-out;
+
+}
+.noticeSection ul li{
+    
+    list-style: circle;
+   
+}
+@keyframes animate {
+    0%{margin-top: 0;}
+    20%{margin-top: -20%;}
+    40%{margin-top: -30%;}
+    60%{margin-top: -50%;}
+    80%{margin-top: -90%;}
+    100%{margin-top: -140%;}
+   
+    
+}
+#coursePage{
+    background-color: #fff;
+    width: 80%;
+    height: 70vh;
+    box-shadow: 0px 10px 20px rgba(0,0,0,45%);
+    padding-bottom: 60px;
+}
+.coursesContainer{
+    width: 100%;
+    height: 70%;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+.courseBox{
+    height: 150px;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,15%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.courseBox img{
+    margin: 20px;
+}
+
+.courseBox p{
+    font-size: 22px;
+    
+}
+.courseBox:hover {
+    background-color: rgb(12, 201, 91);
+    color: #fff;
+}
+.coursePageHeading{
+    padding-top: 4%;
+    padding-bottom: 1%;
+    font-size: 35px;
+    word-spacing: 2px;
+    
+}
+.courseDetails{
+    padding-top: 1px;
+    padding-bottom: 1%;
+    color: lightslategray;
+    font-size: 18px;
+}
+#InstructorWrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 226, 179);
+    margin-top: 7%;
+
+}
+.instructor{
+    height: 400px;
+    width: 300px;
+    
+    background-color: #fff;
+   cursor: pointer;
+}
+.imgBox {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.imgBox img{
+    height: 100%;
+    width: 100%;
+}
+.imgBox:hover .socialMedialink{
+ top: 75%;
+ 
+ 
+}
+
+.Professordetails{
+    height: 100px;
+    width: 100%;
+ text-align: left;
+    box-shadow: 0px 1px 10px rgb(241, 241, 241);
+    padding: 10px;
+}
+.Professordetails h3{
+    font-size: 22px;
+    margin-bottom: 7px;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+.Professordetails p{
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: lightslategray;
+}
+.socialMedialink{
+    position: absolute;
+    width: 100%;
+
+    top: 100%;
+    transition: 0.7s all  ease-in-out;
+}
+.socialMedialink img{
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+}
+footer{
+    background-color: rgb(43, 42, 42);
+    color: #fff;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.footerContainer h1{
+    font-family: 'Inspiration', cursive;
+    text-shadow: 0px 0px 10px rgb(192, 0, 0);
+}
+.footerContainer{
+   width: 300px;
+
+}
+.footerContainer .links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: left;
+}
+.footerContainer .links a{
+    margin-top: 10px;
+    color: lightslategray;
+    --c: #1095c1; /* the color */
+  --s: .15em;
+  
+  line-height:1.6em;
+  padding-bottom: calc(2.1*var(--s));
+  background: 
+    conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+      left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+      left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
+}
+.footerContainer .links a:hover{
+    --_p: 40%;
+    color: var(--c);
+}
+.footerContainer p{
+    padding: 14px;
+}
+/* Styling the gallary page  */
+#gallaryContainer{
+    height: 100vh;
+    width: 100%;
+
+}
+.ImgContainer{
+    margin-top: 29px;
+    height: 90vh;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    justify-content: space-around;
+    row-gap: 30px;
+    padding-bottom: 100px;
+}
+.ImgContainer img{
+    cursor: pointer;
+}
